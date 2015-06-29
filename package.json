@@ -4,7 +4,7 @@
   "description": "Server for routes-builder apps",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./test/*.test.js ./test/**/*.test.js",
+    "test": "mocha ./test/*.test.js ./test/**/*.test.js"
   },
   "author": "Mark Smith",
   "license": "MIT",
