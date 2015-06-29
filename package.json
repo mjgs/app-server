@@ -4,7 +4,7 @@
   "description": "Server for routes-builder apps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test/*.test.js ./test/**/*.test.js",
   },
   "author": "Mark Smith",
   "license": "MIT",
@@ -12,5 +12,8 @@
     "debug": "^2.2.0",
     "path": "^0.11.14",
     "readdir": "0.0.13"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }
